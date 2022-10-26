@@ -24,7 +24,7 @@ for device in devices.keys():
     child.expect('Password:')
     child.sendline('VMware1!')
     child.expect(device_prompt2)
-    print("Successfully evelvated to privilege mode!\n")
+    print("Successfully elevated to privilege mode!\n")
 
     index = 1
 
